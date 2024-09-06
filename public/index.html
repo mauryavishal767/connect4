@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect 4!</title>
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+<body class="flex justify-center text-white" style="background-color: #0f1721;">
+    <main class="p-5 h-screen text-center flex flex-col justify-between">
+        <div>
+            <h1 class="text-5xl font-bold">Connect 4</h1>
+            <p id="winner" class="text-xl font-bold m-2"> </p>
+        </div>
+        <div id="board-area" class="rounded-md overflow-hidden" style="height: 28.125rem; width: 28.125rem;">
+            <div id="tray" class="w-full h-1/6 rounded-md flex flex-row" style="background-color: #222222;"></div>
+            <div id="board" class="w-full h-5/6 rounded-md" style="background-color: #787c00;"></div>
+        </div>
+    </main>
+</body>
+<script src="./src/connect4.js"></script>
+</html>
