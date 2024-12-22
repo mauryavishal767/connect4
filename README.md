@@ -4,4 +4,4 @@
 2. Click on the position where you want to drop the ball.  
 3. Connect 4 balls in a row—whether horizontally, vertically, or diagonally—to win!
 
-**Deployed :** [Connect4 Game](http://127.0.0.1:5500/connect4/)
+**Deployed :** [Connect4 Game](https://mauryavishal767.github.io/connect4/)
